@@ -31,7 +31,6 @@ $(function () {
         var msg2 = `空室確認`;
         
         sendText(msg);
-        sleep(2000);
         sendText(msg2);
 
         return false;
