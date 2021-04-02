@@ -27,7 +27,7 @@ $(function () {
         })
         names = names.slice(0, -1);
 
-        var msg = `出発希望日：${date}\n人数：${number}\nメールアドレス：${names}`;
+        var msg = `出発希望日：${date}\n人数：${number}\n氏名：${names}`;
         sendText(msg);
 
         return false;
