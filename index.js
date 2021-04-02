@@ -29,7 +29,8 @@ $(function () {
 
         var msg = `出発希望日：${date}\n人数：${number}\n氏名：${names}`;
         sendText(msg);
-
+        var msg2 = `空室確認`;
+        
         return false;
     });
 });
